@@ -1,11 +1,11 @@
 /* -- Variables -- */
 :root {
-  --primary-color: #fff;
+  --primary-color: #ffffff;
   --secondary-color: #000;
   --gradient-top-color: rgba(209, 60, 60, 1);
   --gradient-bottom-color: rgba(253, 144, 45, 1);
-  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
 /* -- CSS Reset -- */
@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/krebeck.webp');
 
   background-position: center center;
   background-size: cover;
@@ -252,4 +252,24 @@ body.page-template-page-fullsingle-me h1 {
   fill: var(--secondary-color);
   -webkit-transition: 0.1s;
   transition: 0.1s;
+}
+
+/*
+selektor {
+  eigenschaft: wert;
+}
+*/
+
+h1 {
+  color: rgb(149, 255, 0);
+  background-color: rgba(23, 89, 89, 0.5);
+  padding: 5px 10px;
+}
+
+p {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 20px;
 }
