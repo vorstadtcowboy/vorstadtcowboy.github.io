@@ -1,0 +1,65 @@
+/*
+selector {
+    eigenschaft: wert;
+}
+*/
+
+/*
+Erleichterung für responsivers Webdesign
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  margin: auto;
+  max-width: 900px;
+}
+
+h1 {
+  color: red;
+}
+
+/* Textabsatz soll haben gelbe Schrift auf blauem Hintergrund */
+
+p {
+  color: yellow;
+  background-color: blue;
+  margin: 0;
+  width: 100%;
+  padding: 50px;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+#last-child {
+  border-bottom: 2px solid black;
+}
+
+/* Eine ID in HTML wird zu einer # (Raute) in CSS*/
+#eins {
+  color: white;
+  background-color: green;
+}
+
+/*Eine Klasse in HTML wird zu einem . (Punkt) in CSS*/
+.zebra {
+  background-color: brown;
+  color: white;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+img {
+  margin-top: 100px;
+  width: 100%;
+  display: block;
+}
+
+/*
+Bitte einen Rahmen von 2px Stärke in der Farbe Schwarz um alle Ps
+*/
