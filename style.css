@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #ff0000;
+  background-color: rgb(255, 255, 0);
+  width: 600px;
+  padding: 12px 17px;
+}
+
+p {
+  width: 700px;
+}
+
+p {
+  width: 600px;
+  color: green;
+  background-color: beige;
+  padding: 12px;
+  border: 5px #000 solid;
+  margin: 0;
+}
+
+/* Das ist ein Kommentar */
+a {
+  /*
+    Der Link soll sein:
+    - nicht mehr unterstrichen
+    - hintergrund blau
+    - schriftfarbe: weiss
+    */
+  color: #fff;
+  background-color: blue;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+/*Responsive Bilder*/
+img {
+  width: 600px;
+}
+/*eine  id in HTML wird zu einem Hashtag (#)*/
+#first {
+  background-color: pink;
+}
+
+/*eine  Klasse in HTML wird zu einem Punkt (.)*/
+.orange {
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+}
