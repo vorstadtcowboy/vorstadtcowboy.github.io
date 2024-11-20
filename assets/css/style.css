@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/background.webp');
 
   background-position: center center;
   background-size: cover;
@@ -252,4 +252,9 @@ body.page-template-page-fullsingle-me h1 {
   -webkit-transition: 0.1s;
   transition: 0.1s;
   opacity: 0.7;
+}
+
+h1 {
+  color: rgb(255, 192, 203);
+  background-color: aquamarine;
 }
