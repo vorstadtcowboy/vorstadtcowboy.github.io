@@ -52,3 +52,15 @@ a {
 .green {
   background-color: greenyellow;
 }
+
+/*
+Gib dem Link "Zurück zur Startseite" eine Klasse beliebigen Namens
+Die KLasse soll dem Link eine Border geben.
+
+schwarz
+1px 
+durchgezogene Linie
+*/
+.border {
+  border: 2px solid black;
+}
