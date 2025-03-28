@@ -1,0 +1,47 @@
+/* 
+selector {
+    eigenschaft: wert;
+    property: value;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #ff0000;
+  background-color: #000000;
+  width: 600px;
+  padding: 20px;
+  border: 3px solid pink;
+}
+
+p {
+  border: 5px solid orange;
+  color: #0000ff;
+  background-color: #ffff00;
+  width: 600px;
+  padding: 20px;
+}
+
+/* Rahmen von 5px Stärke in orange */
+
+a {
+  color: #000000;
+}
+
+/* Eine ID in HTML wird in CSS zu einer Raute/Hashtag (#) */
+#zwei {
+  background-color: white;
+  color: black;
+}
+
+/* Eine Klasse in HTML wird in CSS zu einem Pubnkt (.) */
+.rot {
+  color: red;
+  background: brown;
+}
